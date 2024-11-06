@@ -40,10 +40,10 @@ Bilet:
 - Sınıf : Yolcunun uçuş yapacağı sınıf
 
 
-İlişkiler :
--Yolcu-Uçak ilişkisi : Her yolcu bir uçağa binebilir
--Yolcu-Bilet İlişkisi : Yolcuların birden fazla bileti olabilir
--Havaalanı-Uçak İlişkisi : Her havaalanında birden fazla uçak bulunabilir
+İlişkiler:
+- Yolcu-Uçak ilişkisi : Her yolcu bir uçağa binebilir
+- Yolcu-Bilet İlişkisi : Yolcuların birden fazla bileti olabilir
+- Havaalanı-Uçak İlişkisi : Her havaalanında birden fazla uçak bulunabilir
 
 
 
