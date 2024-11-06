@@ -4,9 +4,9 @@ Havaalanındaki yolcu uçak ve havayolu verilerinin düzenlenmesi ve bilgi kolay
 
 Projedeki Öğrenciler:
 
--> Kerem AYDIN (215260069)
--> Ahmet Mert KUMCU (215260049)
--> Miraç Ayşe YERKAZAN (215260083)
+- Kerem AYDIN (215260069)
+- Ahmet Mert KUMCU (215260049)
+- Miraç Ayşe YERKAZAN (215260083)
 
 Proje Özeti:
 
@@ -41,9 +41,9 @@ Bilet:
 
 
 İlişkiler :
-Yolcu-Uçak ilişkisi : Her yolcu bir uçağa binebilir
-Yolcu-Bilet İlişkisi : Yolcuların birden fazla bileti olabilir
-Havaalanı-Uçak İlişkisi : Her havaalanında birden fazla uçak bulunabilir
+-Yolcu-Uçak ilişkisi : Her yolcu bir uçağa binebilir
+-Yolcu-Bilet İlişkisi : Yolcuların birden fazla bileti olabilir
+-Havaalanı-Uçak İlişkisi : Her havaalanında birden fazla uçak bulunabilir
 
 
 
