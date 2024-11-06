@@ -17,13 +17,13 @@ Varlıklar ve Nitelikler:
 
 Yolcu:
 - AdSoyad : Yolcunun tam adı
-- TcKimlikNo : Yolcunun TC Kimlik numarası
+- TcKimlikNo : Yolcunun TC Kimlik numarası (PK)
 - Cinsiyet : Yolcunun Cinsiyeti
 - Yaş : Yolcunun yaşı
 - Bagaj : Yolcunun taşıyabileceği bagajın kg cinsinden sayısı
 
 Uçak:
-- UçakNo: Uçağın kimlik numarası
+- UçakNo: Uçağın kimlik numarası (PK)
 - KalkışSaati : Uçağın kalkış saati
 - Havaalanı : Uçağın kalkış yapacağı havaalanı
 - İstikamet : Uçağın iniş yapacağı havaalanı
@@ -36,14 +36,14 @@ Havaalanı:
 - Uçuşlar : Havaalanından hangi istikamete uçuşlar yapılabileceği
 
 Bilet:
-- BiletNo : Yolcunun bilet numarası
+- BiletNo : Yolcunun bilet numarası (PK)
 - Sınıf : Yolcunun uçuş yapacağı sınıf
 
 
 İlişkiler:
-- Yolcu-Uçak ilişkisi : Her yolcu bir uçağa binebilir
-- Yolcu-Bilet İlişkisi : Yolcuların birden fazla bileti olabilir
-- Havaalanı-Uçak İlişkisi : Her havaalanında birden fazla uçak bulunabilir
+- Yolcu-Uçak ilişkisi : Her yolcu bir uçağa binebilir (1:N)
+- Yolcu-Bilet İlişkisi : Yolcuların birden fazla bileti olabilir (1:N)
+- Havaalanı-Uçak İlişkisi : Her havaalanında birden fazla uçak bulunabilir (N:M)
 
 
 
